@@ -9,7 +9,8 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        String[][] board = {{"11", "A B C D E F G H J L M"},
+        String[][] board = {
+                {"11", "A B C D E F G H J L M"},
                 {"9", "A C E F G H I L M"},
                 {"9", "A C E F G H I L M"},
                 {"9", "A B C E F G H L M"},
@@ -18,7 +19,8 @@ public class Main {
                 {"8", "A C E F G H L M"},
                 {"8", "A C E F G H L M"},
                 {"8", "A C E F G H L M"},
-                {"8", "A B C F G H L M"}};
+                {"8", "A B C F G H L M"}
+        };
         int N = Integer.parseInt(br.readLine());
         bw.append(board[N - 1][0]).append('\n').append(board[N - 1][1]);
 
