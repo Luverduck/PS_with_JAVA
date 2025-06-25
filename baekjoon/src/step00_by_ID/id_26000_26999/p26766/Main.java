@@ -1,7 +1,6 @@
-package baekjoon.src.step00_by_ID.id_28000_28999.p26766;
+package baekjoon.src.step00_by_ID.id_26000_26999.p26766;
 
 import java.io.*;
-import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
