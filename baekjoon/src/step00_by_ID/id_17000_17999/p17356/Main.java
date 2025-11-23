@@ -15,7 +15,6 @@ public class Main {
 
         double M = 1.0 * (B - A) / 400;
         bw.append(String.valueOf(1.0 / (1 + Math.pow(10, M))));
-//        bw.append(String.format("%.4f", 1.0 / (1 + Math.pow(10, M))));
 
         bw.flush();
         br.close();
