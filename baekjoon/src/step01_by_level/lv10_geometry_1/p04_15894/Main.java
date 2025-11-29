@@ -1,4 +1,4 @@
-package baekjoon.src.step01_by_level.lv10_geometry_1.p04_15894;
+package step01_by_level.lv10_geometry_1.p04_15894;
 
 import java.io.*;
 

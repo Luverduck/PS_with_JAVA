@@ -1,4 +1,4 @@
-package baekjoon.src.step01_by_level.lv02_conditional.p07_2480;
+package step01_by_level.lv02_conditional.p07_2480;
 
 import java.io.*;
 import java.util.*;

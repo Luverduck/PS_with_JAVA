@@ -1,4 +1,4 @@
-package baekjoon.src.step01_by_level.lv13_sort.p01_2750;
+package step01_by_level.lv13_sort.p01_2750;
 
 import java.io.*;
 import java.util.*;

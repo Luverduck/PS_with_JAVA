@@ -1,4 +1,4 @@
-package baekjoon.src.solved_ac.s00_by_class.class01.p02920;
+package solved_ac.s00_by_class.class01.p02920;
 
 import java.io.*;
 import java.util.*;

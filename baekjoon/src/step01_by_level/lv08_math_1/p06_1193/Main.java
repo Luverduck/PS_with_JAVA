@@ -1,4 +1,4 @@
-package baekjoon.src.step01_by_level.lv08_math_1.p06_1193;
+package step01_by_level.lv08_math_1.p06_1193;
 
 import java.io.*;
 

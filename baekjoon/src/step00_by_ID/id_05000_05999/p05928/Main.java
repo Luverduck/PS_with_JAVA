@@ -1,4 +1,4 @@
-package baekjoon.src.step00_by_ID.id_05000_05999.p05928;
+package step00_by_ID.id_05000_05999.p05928;
 
 import java.io.*;
 import java.util.*;

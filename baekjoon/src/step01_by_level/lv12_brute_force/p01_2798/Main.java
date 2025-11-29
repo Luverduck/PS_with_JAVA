@@ -1,4 +1,4 @@
-package baekjoon.src.step01_by_level.lv12_brute_force.p01_2798;
+package step01_by_level.lv12_brute_force.p01_2798;
 
 import java.io.*;
 import java.util.*;

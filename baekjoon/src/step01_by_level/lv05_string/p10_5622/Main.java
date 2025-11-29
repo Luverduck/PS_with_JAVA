@@ -1,4 +1,4 @@
-package baekjoon.src.step01_by_level.lv05_string.p10_5622;
+package step01_by_level.lv05_string.p10_5622;
 
 import java.io.*;
 

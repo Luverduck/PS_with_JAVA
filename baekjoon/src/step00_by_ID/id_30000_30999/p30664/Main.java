@@ -1,4 +1,4 @@
-package baekjoon.src.step00_by_ID.id_30000_30999.p30664;
+package step00_by_ID.id_30000_30999.p30664;
 
 import java.io.*;
 import java.math.BigInteger;

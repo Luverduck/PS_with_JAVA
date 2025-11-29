@@ -1,4 +1,4 @@
-package baekjoon.src.step01_by_level.lv09_divisors_multiples_1.p02_2501;
+package step01_by_level.lv09_divisors_multiples_1.p02_2501;
 
 import java.io.*;
 import java.util.*;

@@ -1,4 +1,4 @@
-package baekjoon.src.step01_by_level.lv01_io_and_arithmetics.p13_10172;
+package step01_by_level.lv01_io_and_arithmetics.p13_10172;
 
 public class Main {
     public static void main(String[] args) {
