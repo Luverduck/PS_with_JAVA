@@ -1,7 +1,6 @@
 package step00_by_ID.id_03000_03999.p03765;
 
 import java.io.*;
-import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {

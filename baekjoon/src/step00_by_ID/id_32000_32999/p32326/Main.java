@@ -1,7 +1,6 @@
 package step00_by_ID.id_32000_32999.p32326;
 
 import java.io.*;
-import java.math.BigInteger;
 
 public class Main {
     public static void main(String[] args) throws IOException {
