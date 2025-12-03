@@ -1,4 +1,4 @@
-package p02_math;
+package p03_math;
 
 public class Math01 {
     public static void main(String[] args) {

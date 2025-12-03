@@ -1,4 +1,4 @@
-package p02_math;
+package p03_math;
 
 import java.util.Arrays;
 
