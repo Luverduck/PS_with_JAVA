@@ -1,4 +1,4 @@
-package p03_string;
+package p02_string;
 
 public class String01 {
     public static void main(String[] args) {
