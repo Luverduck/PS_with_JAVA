@@ -8,7 +8,7 @@ public class PriorityQueue01 {
         // PriorityQueue 생성 및 초기화
         PriorityQueue<String> priorityQueue = new PriorityQueue<>(Arrays.asList("A", "B", "C"));
 
-        // 맨 뒤에 요소 추가
+        // 우선순위에 따라 요소 추가
         boolean priorityQueueOffer = priorityQueue.offer("D");
 
         // 우선순위가 가장 높은 요소 제거 후 반환
