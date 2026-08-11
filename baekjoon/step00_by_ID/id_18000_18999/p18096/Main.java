@@ -1,0 +1,17 @@
+package baekjoon.step00_by_ID.id_18000_18999.p18096;
+
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        System.setIn(new FileInputStream("input.txt"));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        bw.append("1");
+
+        bw.flush();
+        br.close();
+        bw.close();
+    }
+}
