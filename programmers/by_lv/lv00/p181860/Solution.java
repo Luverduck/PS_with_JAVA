@@ -5,41 +5,35 @@ import java.util.Arrays;
 /**
  * 코딩테스트 연습
  * 코딩 기초 트레이닝
- * 빈 배열에 추가, 삭제하기
- * https://school.programmers.co.kr/learn/courses/30/lessons/181860
+ * 배열 만들기 6
+ * https://school.programmers.co.kr/learn/courses/30/lessons/181859
  */
 
 class Solution {
-    // 최종 길이와 처리 중 발생할 수 있는 최대 길이를 함께 계산
-    static public int[] solution(int[] arr, boolean[] flag) {
-        int length = 0;
-        int maxLength = 0;
+    public int[] solution(int[] arr) {
+        int[] stk = new int[arr.length];
+        int top = 0;
         for (int i = 0; i < arr.length; ++i) {
-            length += (flag[i] ? 2 * arr[i] : -arr[i]);
-            maxLength = Math.max(length, maxLength);
+            // 배열에 원소가 있으며 stk의 마지막 원소가 arr[i]와 같을 경우
+            if (top > 0 && stk[top - 1] == arr[i]) top--;
+            // 빈 배열 || 배열에 원소가 있으며 stk의 마지막 원소가 arr[i]와 다를 경우
+            else stk[top++] = arr[i];
         }
-
-        int[] res = new int[maxLength];
-        int start = 0;
-        for (int i = 0; i < arr.length; ++i) {
-            if (flag[i]) {
-                int end = start + 2 * arr[i];
-                Arrays.fill(res, start, end, arr[i]);
-                start = end;
-            } else {
-                start -= arr[i];
-            }
-        }
-        return Arrays.copyOfRange(res, 0, length);
+        return top == 0 ? new int[] { -1 } : Arrays.copyOfRange(stk, 0, top);
     }
-
-    /*static void main() {
-        int[] res = solution(
-                new int[]{3, 2, 4, 1, 3},
-                new boolean[]{true, false, true, false, false}
-        );
-        for (int i : res) {
-            System.out.print(i + ", ");
+    /*public int[] solution1(int[] arr) {
+        int i = 0;
+        Deque<Integer> dq = new ArrayDeque<>();
+        while (i < arr.length) {
+            if (dq.isEmpty()) {
+                dq.addLast(arr[i]);
+            } else if (dq.getLast() == arr[i]) {
+                dq.removeLast();
+            } else if (dq.getLast() != arr[i]) {
+                dq.addLast(arr[i]);
+            }
+            i++;
         }
+        return dq.isEmpty() ? new int[] { -1 } : dq.stream().mapToInt(Integer::intValue).toArray();
     }*/
 }
