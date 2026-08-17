@@ -16,6 +16,7 @@ class Solution {
         int[] res = new int[length];
         int idx = 0;
         for (int n : arr) {
+            // Arrays.fill(T[] a, int fromIndex, int toIndex, int val)
             Arrays.fill(res, idx, idx + n, n);
             idx += n;
         }
