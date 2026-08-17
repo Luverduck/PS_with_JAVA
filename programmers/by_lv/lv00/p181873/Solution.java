@@ -1,0 +1,14 @@
+package programmers.by_lv.lv00.p181873;
+
+/**
+ * 코딩테스트 연습
+ * 코딩 기초 트레이닝
+ * 특정한 문자를 대문자로 바꾸기
+ * https://school.programmers.co.kr/learn/courses/30/lessons/181873
+ */
+
+class Solution {
+    public String solution(String my_string, String alp) {
+        return my_string.replace(alp, alp.toUpperCase());
+    }
+}
